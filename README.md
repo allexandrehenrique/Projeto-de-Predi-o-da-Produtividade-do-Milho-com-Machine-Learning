@@ -112,7 +112,7 @@ Esta seção apresenta a interpretação detalhada dos gráficos gerados durante
 
 ## 3.1. Correlação entre variáveis
 
-![Captura de tela 2025-10-06 194405] (img/Captura de tela 2025-10-06 194341.png)
+<img width="858" height="643" alt="Image" src="https://github.com/user-attachments/assets/14124b3b-5a9f-4106-b56f-9dea3e04fda3" />
 
 O mapa de calor de correlação ilustra a intensidade e direção das relações lineares entre todas as variáveis do dataset. Os valores variam de -1 (correlação negativa perfeita) a 1 (correlação positiva perfeita), com 0 indicando ausência de correlação linear. Cores mais escuras (azul marinho) denotam correlações mais fortes, enquanto cores mais claras (amarelo) indicam correlações mais fracas.
 
@@ -139,7 +139,7 @@ Em síntese, a análise de correlação destaca a chuva e a matéria orgânica d
 ## 3.2. Distribuição da Produtividade (sacas/ha)
 
 
-![Captura de tela 2025-10-06 194353] (img/Captura de tela 2025-10-06 194353.png)
+<img width="644" height="443" alt="Image" src="https://github.com/user-attachments/assets/6196251a-4939-49ba-bf5b-139e27ce5d7f" />
 
 O histograma, sobreposto por uma curva de Estimativa de Densidade de Kernel (KDE), ilustra a distribuição de frequência da produtividade do milho em sacas por hectare. O eixo horizontal representa os valores de produtividade, e o eixo vertical indica a contagem de ocorrências para cada intervalo de produtividade.
 
@@ -155,7 +155,7 @@ Justificativa:
 
 ## 3.3. Importância das Variáveis no Modelo
 
-![Captura de tela 2025-10-06 194341] (img/Captura de tela 2025-10-06 194405.png)
+<img width="799" height="439" alt="Image" src="https://github.com/user-attachments/assets/48e5e6fc-a943-4622-89a5-0778b80f4143" />
 
 Este gráfico de barras horizontais quantifica a importância relativa de cada variável preditora na determinação da produtividade do milho, conforme avaliado pelo modelo RandomForestRegressor. O eixo horizontal representa o score de importância (normalizado, somando 1 para todas as variáveis), e o eixo vertical lista as variáveis em ordem decrescente de importância.
 
