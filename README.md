@@ -11,13 +11,13 @@ agronômicas e climáticas.
 
 ### 2. Descrição do Projeto
 
-  2.1. Problema de Negócio
+  ## 2.1. Problema de Negócio
     O problema de negócio central abordado é a predição da produtividade do milho. A
     acurácia na previsão da produtividade é fundamental para o planejamento estratégico
     de agricultores, cooperativas e demais stakeholders da cadeia produtiva,
     influenciando decisões sobre plantio, colheita, comercialização e gestão de riscos.
 
-2.2. Contexto
+## 2.2. Contexto
   O projeto foi desenvolvido utilizando um conjunto de dados sintéticos, gerados para
   simular as interações entre diversas variáveis agronômicas e climáticas e a
   produtividade do milho. As variáveis incluídas são pH do solo, matéria orgânica do
