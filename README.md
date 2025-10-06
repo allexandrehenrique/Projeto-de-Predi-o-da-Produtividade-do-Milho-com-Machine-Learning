@@ -114,14 +114,6 @@ Esta seção apresenta a interpretação detalhada dos gráficos gerados durante
 
 ![Captura de tela 2025-10-06 194405] (img/Captura de tela 2025-10-06 194341.png)
 
-
-
-
-
-
-
-
-
 O mapa de calor de correlação ilustra a intensidade e direção das relações lineares entre todas as variáveis do dataset. Os valores variam de -1 (correlação negativa perfeita) a 1 (correlação positiva perfeita), com 0 indicando ausência de correlação linear. Cores mais escuras (azul marinho) denotam correlações mais fortes, enquanto cores mais claras (amarelo) indicam correlações mais fracas.
 
 Justificativa:
@@ -149,13 +141,6 @@ Em síntese, a análise de correlação destaca a chuva e a matéria orgânica d
 
 ![Captura de tela 2025-10-06 194353] (img/Captura de tela 2025-10-06 194353.png)
 
-
-
-
-
-
-
-
 O histograma, sobreposto por uma curva de Estimativa de Densidade de Kernel (KDE), ilustra a distribuição de frequência da produtividade do milho em sacas por hectare. O eixo horizontal representa os valores de produtividade, e o eixo vertical indica a contagem de ocorrências para cada intervalo de produtividade.
 
 Justificativa:
@@ -170,15 +155,7 @@ Justificativa:
 
 ## 3.3. Importância das Variáveis no Modelo
 
-
 ![Captura de tela 2025-10-06 194341] (img/Captura de tela 2025-10-06 194405.png)
-
-
-
-
-
-
-
 
 Este gráfico de barras horizontais quantifica a importância relativa de cada variável preditora na determinação da produtividade do milho, conforme avaliado pelo modelo RandomForestRegressor. O eixo horizontal representa o score de importância (normalizado, somando 1 para todas as variáveis), e o eixo vertical lista as variáveis em ordem decrescente de importância.
 
