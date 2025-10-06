@@ -112,7 +112,7 @@ Esta seção apresenta a interpretação detalhada dos gráficos gerados durante
 
 ## 3.1. Correlação entre variáveis
 
-
+![Captura de tela 2025-10-06 194405] (img/Captura de tela 2025-10-06 194341.png)
 
 
 
@@ -147,7 +147,7 @@ Em síntese, a análise de correlação destaca a chuva e a matéria orgânica d
 ## 3.2. Distribuição da Produtividade (sacas/ha)
 
 
-
+![Captura de tela 2025-10-06 194353] (img/Captura de tela 2025-10-06 194353.png)
 
 
 
@@ -171,7 +171,7 @@ Justificativa:
 ## 3.3. Importância das Variáveis no Modelo
 
 
-
+![Captura de tela 2025-10-06 194341] (img/Captura de tela 2025-10-06 194405.png)
 
 
 
