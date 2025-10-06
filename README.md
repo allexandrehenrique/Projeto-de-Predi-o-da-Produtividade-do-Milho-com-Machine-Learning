@@ -16,8 +16,6 @@ O projeto foi desenvolvido utilizando um conjunto de dados sintéticos, gerados 
 
 ## 2.3. Premissas da Análise
 
-As premissas que fundamentam este estudo são:
-
 • Representatividade dos Dados: Assume-se que o conjunto de dados sintéticos, apesar de sua natureza artificial, captura as relações essenciais e a complexidade entre as variáveis de entrada e a produtividade do milho. Em aplicações reais, a validação com dados de campo seria indispensável.
 
 • Qualidade dos Dados: Presume-se que os dados utilizados estão livres de valores ausentes significativos ou anomalias que possam distorcer os resultados da análise e a performance do modelo.
@@ -27,8 +25,6 @@ As premissas que fundamentam este estudo são:
 • Divisão dos Dados: A proporção de 80% para treinamento e 20% para teste (test_size=0.2) é adotada como uma prática padrão para garantir uma avaliação imparcial do desempenho do modelo.
 
 ## 2.4. Estratégia da Solução
-
-A estratégia para solucionar o problema de predição da produtividade do milho envolve a aplicação de técnicas de machine learning para regressão, seguindo os passos:
 
 1. Geração de Dados: Criação de um dataset sintético com 500 amostras, compreendendo 8 variáveis preditoras e a variável alvo (produtividade).
 
@@ -42,9 +38,7 @@ A estratégia para solucionar o problema de predição da produtividade do milho
 
 6. Análise de Importância de Variáveis: Identificação das variáveis que exercem maior influência na predição da produtividade, fornecendo insights agronômicos valiosos.
 
-## 2.5. Metodologia de Análise (Passos 1-7)
-
-Para guiar a análise e o desenvolvimento do projeto, foi adotada uma metodologia estruturada em sete passos:
+## 2.5. Metodologia de Análise
 
 ## 2.5.1. Passo 1: Resumir o contexto em uma pergunta aberta
 
@@ -80,8 +74,6 @@ As Dimensões ou variáveis preditoras que influenciam a produtividade são:
 
 ## 2.5.5. Passo 5: Hipóteses Analíticas
 
-Foram formuladas as seguintes hipóteses para guiar a análise:
-
 1. Hipótese 1: Variáveis relacionadas à fertilidade do solo (pH, MO, N, P, K) apresentarão uma correlação significativa com a produtividade do milho.
 
 2. Hipótese 2: Condições climáticas, como chuva e temperatura média, serão fatores determinantes na produtividade.
@@ -91,8 +83,6 @@ Foram formuladas as seguintes hipóteses para guiar a análise:
 4. Hipótese 4: Um modelo baseado em Random Forest será capaz de capturar as relações complexas entre as variáveis e atingir uma acurácia preditiva razoável (R² > 0.5).
 
 ## 2.5.6. Passo 6: Critérios de Priorização
-
-Os critérios utilizados para priorizar as hipóteses analíticas incluem:
 
 • Relevância Agronômica: O impacto direto e prático na gestão agrícola.
 
@@ -116,7 +106,7 @@ Esta seção apresenta a interpretação detalhada dos gráficos gerados durante
 
 O mapa de calor de correlação ilustra a intensidade e direção das relações lineares entre todas as variáveis do dataset. Os valores variam de -1 (correlação negativa perfeita) a 1 (correlação positiva perfeita), com 0 indicando ausência de correlação linear. Cores mais escuras (azul marinho) denotam correlações mais fortes, enquanto cores mais claras (amarelo) indicam correlações mais fracas.
 
-Justificativa:
+## Justificativa:
 
 • Produtividade e Chuva (0.45): Observa-se uma correlação positiva moderada entre a chuva acumulada e a produtividade. Este achado é agronomicamente consistente, pois a disponibilidade hídrica é um dos principais fatores limitantes para o desenvolvimento do milho, e volumes adequados de chuva são essenciais para altas produtividades.
 
@@ -143,7 +133,7 @@ Em síntese, a análise de correlação destaca a chuva e a matéria orgânica d
 
 O histograma, sobreposto por uma curva de Estimativa de Densidade de Kernel (KDE), ilustra a distribuição de frequência da produtividade do milho em sacas por hectare. O eixo horizontal representa os valores de produtividade, e o eixo vertical indica a contagem de ocorrências para cada intervalo de produtividade.
 
-Justificativa:
+## Justificativa:
 
 • Formato da Distribuição: A distribuição da produtividade se aproxima de uma distribuição normal (gaussiana), caracterizada por sua forma de sino e simetria em torno da média. A curva KDE suaviza o histograma, confirmando essa tendência.
 
@@ -159,7 +149,7 @@ Justificativa:
 
 Este gráfico de barras horizontais quantifica a importância relativa de cada variável preditora na determinação da produtividade do milho, conforme avaliado pelo modelo RandomForestRegressor. O eixo horizontal representa o score de importância (normalizado, somando 1 para todas as variáveis), e o eixo vertical lista as variáveis em ordem decrescente de importância.
 
-Justificativa:
+## Justificativa:
 
 • Variáveis Climáticas Dominantes: A chuva e a temperatura média emergem como as variáveis mais importantes para o modelo, com a chuva apresentando a maior contribuição. Este resultado sublinha a preponderância dos fatores climáticos na definição da produtividade do milho, um fato bem estabelecido na agronomia. A temperatura média, embora com baixa correlação linear, revela-se crucial no modelo de Random Forest, indicando interações complexas com outras variáveis.
 
