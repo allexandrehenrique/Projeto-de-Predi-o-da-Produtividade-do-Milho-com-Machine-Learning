@@ -202,16 +202,17 @@ Acesse o link: https://colab.research.google.com/drive/1Ipf2TPJOxdY190lcjk0WLG5k
 5.0.1 Validação com Dados Reais de Campo: O projeto atual utilizou dados sintéticos. O passo mais crucial seria aplicar o modelo a dados reais de produtividade do milho, coletados em diferentes regiões e safras. Isso permitiria validar a robustez do modelo e identificar a necessidade de ajustes.
 
 5.0.2 Coleta de Mais Variáveis: Expandir o conjunto de dados com outras variáveis agronômicas e ambientais que podem influenciar a produtividade, como:
-    . Genótipo do milho: Diferentes variedades podem ter desempenhos distintos.
-    . Tipo de solo: Textura, estrutura e capacidade de troca catiônica.
-    . Histórico de manejo: Rotação de culturas, uso de defensivos, etc.
-    . Topografia: Inclinação, altitude.
-    . Dados de satélite: Índices de vegetação (NDVI, EVI), umidade do solo.
+. Genótipo do milho: Diferentes variedades podem ter desempenhos distintos.
+. Tipo de solo: Textura, estrutura e capacidade de troca catiônica.
+. Histórico de manejo: Rotação de culturas, uso de defensivos, etc.
+. Topografia: Inclinação, altitude.
+. Dados de satélite: Índices de vegetação (NDVI, EVI), umidade do solo.
     
 5.0.3 Exploração de Outros Modelos de Machine Learning: Testar outros algoritmos de regressão, como:
-    . Gradient Boosting Machines (XGBoost, LightGBM): Frequentemente apresentam alta performance em problemas de regressão.
-    . Redes Neurais (ANNs): Podem capturar relações complexas e não lineares.
-    . Modelos de Séries Temporais: Se houver dados de produtividade ao longo do tempo para a mesma área.
+
+. Gradient Boosting Machines (XGBoost, LightGBM): Frequentemente apresentam alta performance em problemas de regressão.
+. Redes Neurais (ANNs): Podem capturar relações complexas e não lineares.
+. Modelos de Séries Temporais: Se houver dados de produtividade ao longo do tempo para a mesma área.
 
 5.0.4 Otimização de Hiperparâmetros: Realizar uma otimização mais aprofundada dos hiperparâmetros do RandomForestRegressor (ou de outros modelos testados) usando técnicas como Grid Search ou Random Search para maximizar o desempenho.
 
